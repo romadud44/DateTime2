@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         binding.enterImageIV.setImageResource(R.drawable.ic_enter_image)
         binding.enterDobET.setOnClickListener {
             val dpd = DatePickerDialog(this, { _, year, monthOfYear, dayOfMonth ->
-                binding.enterDobET.setText("$dayOfMonth.$monthOfYear.$year")
+                binding.enterDobET.text = "$dayOfMonth.$monthOfYear.$year"
             }, year, month, day)
             dpd.show()
         }
