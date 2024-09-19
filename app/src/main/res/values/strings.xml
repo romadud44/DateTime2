@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DateTime</string>
+    <string name="exit">Выход</string>
+    <string name="text_DOB_ET">Нажмите, чтобы ввести дату рождения</string>
+    <string name="text_last_name_ET">Введите фамилию</string>
+    <string name="text_name_ET">Введите имя</string>
+    <string name="text_save_BTN">Сохранить</string>
+</resources>
