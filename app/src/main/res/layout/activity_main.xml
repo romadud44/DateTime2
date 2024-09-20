@@ -56,10 +56,11 @@
         />
 
     <de.hdodenhof.circleimageview.CircleImageView
-
         android:id="@+id/enterImageIV"
         android:layout_width="@dimen/_300dp"
         android:layout_height="@dimen/_300dp"
+        app:civ_border_color="@color/circleColor"
+        app:civ_border_width="10dp"
         app:layout_constraintBottom_toTopOf="@+id/saveBTN"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
